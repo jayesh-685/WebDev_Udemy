@@ -83,7 +83,18 @@
     <!-- we can adjust size using html but it's not a good practice, better do it using css-->
     <br>
     <img src="chicken_image.jpg" alt="image of chicken" width="300px" height="300px">
-    <!-- here image was in the same folder as the html file so we just wrote the image name-->
+    <!-- here image was in the same folder as the html file so we just wrote the image name, otherwise write full path or use relative paths-->
+
+    <!-- block level elements take up a whole block of space, no matter how small the content is like the <p> tag whereas inline elements like the <a> tag only take as much space as required and multiple inline tags can coexist in the same space -->
+
+    <!-- div is a generic container used to hold elements together, it is a block level element, will understand its usefullness when studying CSS -->
+    <a href="https://www.google.com/">not using div so link in same line</a>
+    <div>
+        <a href="https://www.google.com/">link in new line because of div</a>
+    </div>
+    <!-- span is like div but is an inline element so we would use this around text or content that we want to single out to style later on -->
+    <p>this is a paragraph we use <span>span</span> element but won't see any diff here</p>
+
 </body>
 
 </html>
