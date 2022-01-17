@@ -190,22 +190,25 @@
     <h2>Forms</h2>
 
     <!-- action is used to specify where to send the data -->
-    <form action="">
+    <form action="abc.com">
+        <!-- id is used to link label and input -->
+        <!-- name is used by server to identify information -->
+        <!-- notice the url after clicking submit button to see the use of name -->
         <p>
             <label for="username">Enter your username</label>
-            <input type="text" placeholder="username" id="username">
+            <input type="text" placeholder="username" id="username" name="username">
         </p>
         <p>
             <label for="password">Enter your password</label>
-            <input type="password" placeholder="password" id="password">
+            <input type="password" placeholder="password" id="password" name="password">
         </p>
         <p>
             <label for="color">Pick favourite color</label>
-            <input type="color" id="color">
+            <input type="color" id="color" name="colorChoice">
         </p>
         <p>
             <label for="contact">Enter contact details</label>
-            <input type="number" placeholder="contact no" id="contact">
+            <input type="number" placeholder="contact no" id="contact" name="contact">
         </p>
         <button type="submit">Submit</button>
         <button type="button">Nothing</button>
