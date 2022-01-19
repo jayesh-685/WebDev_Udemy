@@ -229,12 +229,46 @@
         <button type="submit">Search google!</button>
     </form>
 
+
+    <h3>Radio Buttons, Checkboxes, & Selects</h3>
+
+    <form action="abc">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to the terms and conditions</label>
+        <br>
+        <input type="checkbox" name="desktopShortcut" id="desktopShortcut" checked>
+        <label for="desktopShortcut">Create desktop shortcut</label>
+
+        <p>
+            <!-- give the same name to all the disks so only one can be selected at a time. use another attribute value to decide what to send when form is submitted otherwise it just send 'on' -->
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="l">L</label>
+            <input type="radio" name="size" id="l" value="l">
+            <label for="xl">XL</label>
+            <input type="radio" name="size" id="xl" value="xl">
+        </p>
+
+        <p>
+            <label for="switches">Select switch type</label>
+            <select name="switches" id="switches">
+                <!-- <option value="">--Select one--</option> -->   
+                <option value="red">Red</option>
+                <option value="blue" selected>Blue</option>
+                <option value="brown">Brown</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
+
     <footer>
         <ul>
             <li><a href="abc">Contact us</a></li>
             <li><a href="abc">Top</a></li>
         </ul>
     </footer>
+
+    
 
 </body>
 
