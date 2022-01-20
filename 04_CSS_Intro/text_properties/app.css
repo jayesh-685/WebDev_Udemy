@@ -4,8 +4,9 @@ h1 {
     text-decoration: #f78120 underline wavy;
     letter-spacing: 15px;
     font-size: 80px;
-    /* font-family: Segoe UI, Futura, Arial, sans-serif; */
-    font-family: monospace;
+    /* not all fonts are present in all systems so if first choice is not supported it will use second and so on */
+    font-family: Segoe UI, Futura, Arial, sans-serif;
+    /* font-family: monospace; */
 }
 
 a {
