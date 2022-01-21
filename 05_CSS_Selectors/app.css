@@ -42,10 +42,12 @@ footer a {
     color: #e63946;
 }
 
+/* button immediately after h2 */
 h2 + button {
     font-size: 20px;
 }
 
+/* direct descendent of footer (only one level down) */
 footer > a {
     color: #457b9d;
 }
