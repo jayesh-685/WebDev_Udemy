@@ -86,6 +86,8 @@ a[href*="google"]{
     background-color: #dfe8dc;
 }
 
+/* PSEUDO ELEMENTS */
+/* Keyword added to a selector that lets you style a particular part of selected element */
 h2::first-letter {
     font-size: 50px;
 }
