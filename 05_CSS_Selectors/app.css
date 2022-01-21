@@ -71,7 +71,8 @@ a[href*="google"]{
     color: #1d3557;
 }
 
-
+/* PSEUDO CLASSES */
+/* keyword added to a selector that specifies a special state of the selected elements */
 .post a:hover {
     text-decoration: underline;
 }
