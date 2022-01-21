@@ -121,6 +121,8 @@ button:hover {
     background-color: olive;
 }
 
+/* inline styles (those used in html itself) are even more specific than ids, don't use them */
+/* !important overrides everything else */
 button {
     background-color: magenta !important;
 }
