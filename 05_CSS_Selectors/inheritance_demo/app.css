@@ -10,6 +10,10 @@ form {
     color: greenyellow;
 }
 
+/* certain elements don't inherit things by default */
 button, input {
     color: inherit;
+    /* inherits from nearest parent */
 }
+
+/* not all properties are inheritable */
