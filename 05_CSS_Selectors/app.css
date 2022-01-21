@@ -56,6 +56,17 @@ input[type="password"] {
     color: greenyellow;
 }
 
+/* you can select any attribute like  */
+/* section [class = "post"] {
+    background-color: purple;
+} */
+
+/* can also do like */
+/* section.post {
+    background-color: teal;
+} */
+
+/* <a> elements with an href containing "example" */
 a[href*="google"]{
     color: #1d3557;
 }
