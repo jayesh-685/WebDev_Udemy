@@ -100,6 +100,18 @@ p::selection {
     background-color: #fcbf49;
 }
 
+/* h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+} */
+/* color will be ultimately set to blue because order matters */
+
+/* in case of conflict, the more specific selector wins
+ID > Class, attribute > Elements */
+
 .post button:hover {
     background-color: #e63946;
     color: #f1faee;
