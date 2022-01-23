@@ -1,3 +1,12 @@
+/* PERCENTAGES ARE ALWAYS
+RELATIVE TO SOME OTHER VALUE
+Sometimes, it's a value from the parent
+and other times it's a value from the
+element itself.
+width: 50% - half the width of the parent
+line-height: 50% - half the font-size of
+the element itself */
+
 html {
     font-size: 30px;
 }
@@ -30,6 +39,7 @@ html {
 }
 
 #ems ul {
+    /* font size of each ul is 1.5 times the parent so the innermost ul's get really big */
     font-size: 1.5em;
 }
 
@@ -41,7 +51,11 @@ button {
     color: white;
 }
 
-
+/* Relative to the root html element's
+font-size. Often easier to work with.
+ROOT EMS
+If the root font-size is 20px, 1 rem is
+always 20px, 2rem is always 40px, etc. */
 #rems h2{
     font-size: 3rem;
 }
