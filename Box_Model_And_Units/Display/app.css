@@ -1,4 +1,9 @@
+/* The display CSS property sets whether an element is treated as a block or inline element */
+/* display: block;
+display: inline;
+display: inline-block; */
 span {
+    /* properties like width margin padding aren't respected for inline elements like span so the result won't be what you had expected */
     background-color: palevioletred;
     border: 1px solid black;
     width: 500px;
@@ -17,11 +22,11 @@ h1 {
 
 
 div {
+    /* if you want 3 div elements side by side (like 3 squares), then if you set the display property to inline, the height width margin properties aren't respected so you don't get the expected result so you should set it to inline-block */
     height: 200px;
     width: 200px;
     background-color: olivedrab;
     border: 5px solid black;
     display: inline-block;
     margin: 50px;
-
 }

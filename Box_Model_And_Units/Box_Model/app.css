@@ -1,4 +1,5 @@
 body {
+    /* some elements like body and h1 have some margin by default and if we don't want it we can set it to 0 */
     margin: 0;
 }
 div {
@@ -23,6 +24,7 @@ h1 {
     border-width: 5px;
     border-color: black; 
     border-style: solid;
+    /* this makes sure size of content box remains same even after adding border */
     /* box-sizing: border-box; */
     margin-left: 50px;
     margin-bottom: 100px;
@@ -40,6 +42,7 @@ h1 {
 
 #three {
     background-color: #6d6875;
+    /* has to be in this particular order */
     border: 4px solid black;
     border-left-style: dotted;
     border-radius: 50%;
