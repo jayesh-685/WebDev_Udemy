@@ -17,6 +17,8 @@ div {
     top: 100px;
 }
 
+/* It's positioned relatively to where it would be if it was just normal. 
+The element is positioned relative to where it normally would be. */
 #relative #middle {
     position: relative;
     top: 50px;
@@ -27,6 +29,7 @@ div {
     position: relative;
 }
 
+/* The element is removed from the normal document flow and no space is created for the element. but it's positioned relative to its closest positioned ancestor, if any, otherwise its place relative to the initial containing block basically the body. */
 #absolute #middle {
     position: absolute;
     top: 1px;
