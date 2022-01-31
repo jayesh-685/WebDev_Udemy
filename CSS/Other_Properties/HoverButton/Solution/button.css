@@ -3,6 +3,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* above properties not discussed yet */
   height: 100vh;
   background-color: #151b29;
 }
@@ -14,6 +15,7 @@ button {
   padding: 1em 2em;
   font-size: 1em;
   transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+  /* can also do transition: all 0.25s but it's not a good practice */
 }
 
 button:hover {
