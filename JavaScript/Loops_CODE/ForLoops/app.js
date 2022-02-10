@@ -16,9 +16,9 @@
 // OUR FIRST FOR LOOP
 // ======================================
 
-for (let num = 1; num <= 10; num += 1) {
-    console.log(num);
-}
+// for (let num = 1; num <= 10; num += 1) {
+//     console.log(num);
+// }
 
 // ======================================
 // MORE EXAMPLES OF FOR LOOPS!
@@ -46,7 +46,10 @@ for (let num = 1; num <= 10; num += 1) {
 // ================================
 // ================================
 
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"]; 
 
-
+for (let i=0; i<people.length(); i++) {
+    console.log(people[i].toUpperCase);
+}
 
 
