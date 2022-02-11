@@ -15,8 +15,7 @@ while (command !== "quit" && command !== "q") {
         if (index < 0 || index >= list.length || Number.isNaN(index)) {
             console.log("Invalid index");
         } else {
-            let temp = list[index];
-            list.splice(index, 1);
+            let temp = list.splice(index, 1);
             console.log(`${temp} deleted!`);
         }
     }
