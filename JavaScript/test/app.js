@@ -1,8 +1,9 @@
-function capitalize (str) {
-    let res = str[0];
-    res = res.toUpperCase();
-    res += str.slice(1);
-    return res;
-}
+// DO NOT ALTER THE FOLLOWING CODE:
+const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
 
-console.log(capitalize("jayesh"));
+// Write your code here
+
+let firstNames = fullNames.map(function (names) {
+    return fullNames.first;
+});
+
