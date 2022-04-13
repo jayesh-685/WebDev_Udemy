@@ -1,3 +1,5 @@
+// can also make buttons using js
+
 const makeRandColor = () => {
     const r = Math.floor(Math.random() * 255);
     const g = Math.floor(Math.random() * 255);
