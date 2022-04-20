@@ -1,11 +1,6 @@
-const hello = document.querySelector('#hello');
-const goodbye = document.querySelector('#goodbye');
+// Leave the next line, the form must be assigned to a variable named 'form' in order for the exercise test to pass
+const form = document.querySelector('form');
 
-hello.addEventListner('click', function () {
-    console.log("hello");
-});
-
-function sayHello () {
-    console.log("hello");
-}
-goodbye.addEventListner('click', sayHello);
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+})
