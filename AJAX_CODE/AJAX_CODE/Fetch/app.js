@@ -2,6 +2,7 @@ fetch("https://swapi.dev/api/people/1/")
   .then((res) => {
     console.log("RESOLVED!", res);
     return res.json();
+    // res body is not parsed, it is a readable stream that we have to call the json function on, which returns a promise so again we have to use .then and .catch for it
   })
   .then((data) => {
     console.log(data);

@@ -1,6 +1,7 @@
 // axios
 //   .get("https://swapi.dev/api/people/1/")
 //   .then((res) => {
+      //  data is already parsed 
 //     console.log("RESPONSE: ", res);
 //   })
 //   .catch((e) => {
