@@ -12,6 +12,7 @@ class Pet {
 class Cat extends Pet {
 	constructor(name, age, livesLeft = 9) {
 		console.log('IN CAT CONSTRUCTOR!');
+		// to use parent's class constructor
 		super(name, age);
 		this.livesLeft = livesLeft;
 	}

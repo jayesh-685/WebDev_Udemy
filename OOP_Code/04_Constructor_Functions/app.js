@@ -24,6 +24,7 @@ Color.prototype.rgb = function() {
 	const { r, g, b } = this;
 	return `rgb(${r}, ${g}, ${b})`;
 };
+// don't use arrow functions here because they behave differently with this
 
 Color.prototype.hex = function() {
 	const { r, g, b } = this;

@@ -1,3 +1,4 @@
+// syntactic sugar
 class Color {
 	constructor(r, g, b, name) {
 		this.r = r;
@@ -5,6 +6,8 @@ class Color {
 		this.b = b;
 		this.name = name;
 	}
+
+	// these are the methods on the color prototype and not on the instances
 	innerRGB() {
 		const { r, g, b } = this;
 		return `${r}, ${g}, ${b}`;
