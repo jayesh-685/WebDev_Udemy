@@ -4,6 +4,8 @@ function Color(r, g, b) {
 	this.g = g;
 	this.b = b;
 }
+// without the new keyword this refers to the window object
+// when we use the new keyword then it creates a new object, adds the attributes then returns the newly created object
 
 //If you call it on its own like a regular function...
 Color(35, 60, 190); //undefined

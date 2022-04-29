@@ -12,3 +12,6 @@ Array.prototype.pop = function() {
 };
 const nums = [ 6, 7, 8, 9 ];
 nums.pop(); // "SORRY I WANT THAT ELEMENT, I WILL NEVER POP IT OFF!"
+
+// prototype is a property of a Function object. It is the prototype of objects constructed by that function.
+// __proto__ is an internal property of an object, pointing to its prototype.

@@ -10,13 +10,15 @@ function makeColor(r, g, b) {
 		return `rgb(${r}, ${g}, ${b})`;
 	};
 	color.hex = function() {
-		const { r, g, b } = this;
+		const { r, g, b } = this;	// destructuring from this
 		return (
 			'#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)
 		);
 	};
 	return color;
 }
+// when we create objects this way then each color object has its own RGB function which is wasteful.
+// we can verify that by using firstColor.hex === black.hex which will return false
 
 const firstColor = makeColor(35, 255, 150);
 firstColor.hex(); //firstColor.hex();
