@@ -1,6 +1,5 @@
 import {franc, francAll} from 'franc'
-// const langs = require('langs');
-import {langs} from 'langs'
+import langs from 'langs'
 
 const input = process.argv[2];
 if (franc(input) === 'und') {
