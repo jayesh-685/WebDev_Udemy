@@ -1,3 +1,5 @@
+// EJS is a simple templating language that lets you embed Javascript into HTML templates. IE, build dynamic content into your templates. It is faster and simpler than using a full framework like Angular or React, although less feature rich.
+
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -16,6 +18,7 @@ app.set('views', path.join(__dirname, '/views'))
 // we want where my file index.js is  located and then append views to that
 // to achieve that we use const path and app.set('views', path.join())
 
+// instead of sending some text we are sending a ejs file
 app.get('/', (req, res) => {
     res.render('home')
 })
