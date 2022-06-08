@@ -5,6 +5,8 @@ const express = require('express');
 const app = express();
 
 
+// app.use is used to run some code on every single request of any kind
+// we can send data in diff formats so we need to tell express how to parse it since all data recieved is recieved in the form of text
 //To parse form data in POST request body:
 app.use(express.urlencoded({ extended: true }))
 // To parse incoming JSON in POST request body:
@@ -56,7 +58,7 @@ app.get('/comments/new', (req, res) => {
 app.post('/comments', (req, res) => {
     const { username, comment } = req.body;
     comments.push({ username, comment, id: uuid() })
-    res.redirect('/comments');
+    res.redirect('/comments'); // defaults to get
 })
 // *******************************************
 // SHOW - details about one particular comment
