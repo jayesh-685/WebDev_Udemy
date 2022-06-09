@@ -11,7 +11,9 @@ const app = express();
 app.use(express.urlencoded({ extended: true }))
 // To parse incoming JSON in POST request body:
 app.use(express.json())
+// can only send post or get requests through a form so we need to use method override
 // To 'fake' put/patch/delete requests:
+// need not be '_method', can be anything else too just shouldn't conflict with the form input names
 app.use(methodOverride('_method'))
 // Views folder and EJS setup:
 app.set('views', path.join(__dirname, 'views'))
