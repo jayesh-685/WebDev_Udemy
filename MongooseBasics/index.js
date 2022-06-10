@@ -21,6 +21,7 @@ const movieSchema = new mongoose.Schema({
 // here we have a model class named movie
 const Movie = mongoose.model('Movie', movieSchema);
 // const amadeus = new Movie({ title: 'Amadeus', year: 1986, score: 9.2, rating: 'R' });
+// need to use amadeus.save() after this to insert into db
 
 
 // Movie.insertMany([
@@ -34,6 +35,8 @@ const Movie = mongoose.model('Movie', movieSchema);
 //         console.log("IT WORKED!")
 //         console.log(data);
 //     })
+
+// no need not to use .save()   
 
 
 
