@@ -15,6 +15,10 @@ const movieSchema = new mongoose.Schema({
     rating: String
 });
 
+// first parameter is name of model and second is schema
+// model name is supposed to be singular and capitalized (the first letter)
+// mongoose is going to create a collection for us by pularlizing it and making it lowercase ('movies' here)
+// here we have a model class named movie
 const Movie = mongoose.model('Movie', movieSchema);
 // const amadeus = new Movie({ title: 'Amadeus', year: 1986, score: 9.2, rating: 'R' });
 
