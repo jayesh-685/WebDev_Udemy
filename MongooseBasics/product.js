@@ -8,6 +8,8 @@ mongoose.connect('mongodb://localhost:27017/shopApp', { useNewUrlParser: true, u
         console.log(err)
     })
 
+/* But this syntax now allows me to add in additional information, including things like some of the built-In
+validations that come with mongoose. */
 const productSchema = new mongoose.Schema({
     name: {
         type: String,
