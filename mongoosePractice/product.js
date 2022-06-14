@@ -55,13 +55,12 @@ productSchema.methods.toggleOnSale = function () {
     return this.save();
 }
 
-/* ***** here this refers to the particular instance */
+
 productSchema.methods.addCategory = function (newCat) {
     this.categories.push(newCat);
     return this.save();
 }
 
-/* *** here this refers to the whole model */
 productSchema.statics.fireSale = function () {
     return this.updateMany({}, { onSale: true, price: 0 })
 }
