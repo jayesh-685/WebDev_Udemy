@@ -1,3 +1,8 @@
+/* **************
+we use this file so insert some initial data into our database so that we have something to work with as we create our model
+*/
+
+
 const mongoose = require('mongoose');
 const Product = require('./models/product');
 
