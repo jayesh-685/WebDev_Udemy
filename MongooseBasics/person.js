@@ -26,6 +26,12 @@ the set version of our virtual
 But what this will do is actually take the property, the value we're setting for fullName, and then
 we can use that to update first name and last name. */
 
+/* ******************
+mongoose gives us the ability to run code before and after certain things are executed.
+So I can run some code right before something is removed or something is saved or any time we call
+update many or find or whatever it is.
+You can see a whole list of the things that we can work with and we can run a pre or post hook or a middleware*/
+
 personSchema.pre('save', async function () {
     this.first = 'YO';
     this.last = 'MAMA';
