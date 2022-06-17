@@ -1,5 +1,5 @@
 // Making Strings
-let color = "purple";
+// let color = "purple";
 
 // Single quotes work too:
 let city = 'Tokyo';
@@ -38,4 +38,13 @@ const color = "olive green";
 const msg = `My favorite color is: ${color}` //"My favorite color is: olive green"
 
 const str = `There are ${60 * 60 * 24} seconds in a day`//"There are 86400 seconds in a day"
+
+
+/* *************************
+Math.random() returns a random number between 0 (inclusive),  and 1 (exclusive)
+// Returns a random integer from 0 to 9:
+Math.floor(Math.random() * 10);
+// Returns a random integer from 1 to 10:
+Math.floor(Math.random() * 10) + 1;
+*/
 
