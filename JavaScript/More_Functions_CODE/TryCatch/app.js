@@ -15,3 +15,6 @@ function yell(msg) {
         console.log("Please pass a string next time!")
     }
 }
+
+yell("hello");
+yell(3);

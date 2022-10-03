@@ -38,6 +38,11 @@ birdWatch()
 // LEXICAL SCOPE
 // ==============
 
+/* *************************
+an inner function nested inside of some parent function has access to the scope or to the variables defined in the scope of that outer function.
+when bankRobbery is executed then it calls cryForHelp which calls inner but even inside inner we have access to heroes array are able to print that but we don't have access to color outside of cryForHelp
+*/
+
 function bankRobbery() {
     const heroes = ['Spiderman', 'Wolverine', 'Black Panther', 'Batwoman']
     function cryForHelp() {
@@ -45,7 +50,7 @@ function bankRobbery() {
         function inner() {
             for (let hero of heroes) {
                 console.log(`PLEASE HELP US, ${hero.toUpperCase()}`)
-            }
+            }   
         }
         inner();
     }
