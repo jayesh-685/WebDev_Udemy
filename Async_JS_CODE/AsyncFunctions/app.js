@@ -1,7 +1,8 @@
 // async function hello() {
 // }
 
-
+// arrow decleration of async function
+// return for resolving promise and throw for rejecting it
 const sing = async () => {
     throw "OH NO, PROBLEM!"
     return 'LA LA LA LA'
@@ -57,6 +58,11 @@ const delayedColorChange = (color, delay) => {
 //     .then(() => delayedColorChange('indigo', 1000))
 //     .then(() => delayedColorChange('violet', 1000))
 
+// •We can only use the await keyword
+// inside of functions declared with async.
+// •await will pause the execution of the
+// function, waiting for a promise to be
+// resolved
 
 async function rainbow() {
     await delayedColorChange('red', 1000)
@@ -93,6 +99,7 @@ const fakeRequest = (url) => {
 }
 
 
+// use try catch to handle promise resolve and reject
 async function makeTwoRequests() {
     try {
         let data1 = await fakeRequest('/page1');
