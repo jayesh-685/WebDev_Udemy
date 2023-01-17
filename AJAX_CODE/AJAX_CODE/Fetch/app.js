@@ -31,6 +31,7 @@ fetch("https://swapi.dev/api/people/1/")
 //     console.log("ERROR!", e);
 //   });
 
+// wherever there are promises we can use await with try and catch
 const loadStarWarsPeople = async () => {
   try {
     const res = await fetch("https://swapi.dev/api/people/1/");

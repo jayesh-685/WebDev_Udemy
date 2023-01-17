@@ -2,6 +2,7 @@
 
 const req = new XMLHttpRequest();
 
+// attaching the 2 call backs
 req.onload = function () {
   console.log("IT LOADED!!");
   const data = JSON.parse(this.responseText);

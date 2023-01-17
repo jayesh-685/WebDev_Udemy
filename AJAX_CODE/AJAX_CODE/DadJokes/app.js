@@ -10,6 +10,7 @@ const addNewJoke = async () => {
 
 const getDadJoke = async () => {
   try {
+    // config object can be passed as a second object to axios.get
     const config = { headers: { Accept: "application/json" } };
     const res = await axios.get("https://icanhazdadjoke.com/", config);
     return res.data.joke;
