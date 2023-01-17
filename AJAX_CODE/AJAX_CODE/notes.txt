@@ -1,0 +1,11 @@
+But the idea here of Ajax, even though we're not talking about XML, the whole concept is creating
+
+applications where using JavaScript we can load data or we can fetch information, or we can send data
+
+somewhere to save your progress, save something to a database, do all sorts of things behind the scenes
+
+where in the past you would have had to refresh a page to send a new request.
+
+We can do it with JavaScript while you're on the same page.
+
+Like loading new info as you scroll, or live search where you display results as you are typing
