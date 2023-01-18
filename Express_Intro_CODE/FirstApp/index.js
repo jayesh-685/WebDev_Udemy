@@ -1,3 +1,15 @@
+/**
+ * Express is used to:
+
+• Start up a server to listen for requests
+
+• Parse incoming requests
+
+• Match those requests to particular routes • Craft our http response and associated
+
+content
+ */
+
 // This download does not include the node_modules folder
 // REMEMBER TO RUN "npm install" first, to tell NPM to download the needed packages
 const express = require("express");
