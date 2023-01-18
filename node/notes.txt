@@ -1,0 +1,15 @@
+there's so much more that we could do with other languages like Python or Ruby, where we could
+
+write, create web servers, we can interact with file systems, we can make command line tools, you
+
+can make video games.
+
+These are things that we couldn't really do with JavaScript until the advent of Node.
+
+JS So Node is an implementation of JavaScript that runs outside of the browser.
+
+So we can run JavaScript code without ever opening a browser, without even having a browser on our
+
+machine.
+
+

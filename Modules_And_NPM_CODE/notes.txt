@@ -1,0 +1,40 @@
+So we're going to start by talking about sharing JavaScript code between different files outside of
+
+Node in the world of the browser client side JavaScript.
+
+If we have different JavaScript files, we just include them in the same HTML script or the same HTML
+
+document rather.
+
+And then we have access to all the functions and all the whatever variables that we've defined, assuming
+
+that we've included them in the right order.
+
+And we do have to worry about that order.
+
+With Node, we have a completely different system where we can be very particular about what a single
+
+file shares and what it does not share.
+
+And we can require code from other files
+
+
+//npm
+
+a package is just code somebody else has written.
+
+Generally it's written in a way that makes it easy for us to integrate it into our own project.
+
+And NPM is the standardized repository for those node packages.
+
+It stands for Node Package Manager and node itself comes with a NPM command line tool that we will use
+
+to easily install and manage those packages.
+
+
+install packages globally and if you install them globally don't forget to link them
+
+
+It records important metadata about a project which is required before publishing to NPM, and also defines functional attributes of a project that npm uses to install dependencies, run scripts, and identify the entry point to our package.
+
+run npm init before installing node modules
