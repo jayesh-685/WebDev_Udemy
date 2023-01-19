@@ -1,0 +1,3 @@
+use public folder for storing all static media
+use views for ejs files
+using templates inside templates: use includes() with a specific syntax

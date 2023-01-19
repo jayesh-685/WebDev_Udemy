@@ -72,6 +72,8 @@ app.get('*', (req, res) => {
 
 
 // this will run when the app has started listening
+// can use diff port nos for diff kinds of traffic like mail, media etc
+// app.listen is at the end as a convention to use a logical and safe order of initialization where you configure the server first before starting it and exposing it to incoming connections.
 app.listen(8080, () => {
     console.log("LISTENING ON PORT 8080")
 })

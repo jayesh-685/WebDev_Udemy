@@ -8,6 +8,7 @@ const redditData = require('./data.json');
 // by default, when we create a new express app and we're using some
 // view, Engine Express is going to assume that our views are templates exist in a directory called views.
 
+// all the static files (css, scripts, media should be in the public folder)
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.set('view engine', 'ejs');
