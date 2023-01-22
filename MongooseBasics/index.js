@@ -20,7 +20,7 @@ const movieSchema = new mongoose.Schema({
 // mongoose is going to create a collection for us by pularlizing it and making it lowercase ('movies' here)
 // here we have a model class named movie
 const Movie = mongoose.model('Movie', movieSchema);
-// const amadeus = new Movie({ title: 'Amadeus', year: 1986, score: 9.2, rating: 'R' });
+// const amadeus = new Movie({ title: 'Amadeus', year: 1986, score: 9.2, rating: 'R' });   // this will create new instance of movie class
 // need to use amadeus.save() after this to insert into db
 
 

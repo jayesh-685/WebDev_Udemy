@@ -1,0 +1,1 @@
+BSON can be stored in binary form hence occupies less space as compared to JSON and has more datatypes

@@ -1,0 +1,13 @@
+we need a (node) application to interact with our mongo db, which are called drivers and are available in diff languages.
+we can use those, but we will be using mongoose which is a Object Document Mapper (ODM).
+And Mongoose is one for Mongo and Node.js.
+
+It connects the two, but it's more than just a basic driver that connects node to a mongo database.
+
+It provides a lot of functionality that's useful on the JavaScript side of things, so it maps the data
+
+that comes back from Mongo and the data that we want to insert into Mongo.
+
+It maps them into these usable JavaScript objects that we can add methods to, we can add validations
+
+to.
