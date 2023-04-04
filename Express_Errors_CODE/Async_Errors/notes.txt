@@ -1,0 +1,2 @@
+For errors returned from asynchronous functions invoked by route handlers and middleware, you must pass them to the next() function, where Express will catch and process them.
+so you can't do throw new AppError(), you need to use next(new AppError())
